@@ -265,7 +265,7 @@ elif page == "Feedback":
     comment = st.text_area("Additional comments")
     if st.button("Submit Feedback"):
         st.session_state['feedback'] = {'rating': rating, 'comment': comment}
-        st.success("Feedback submitted (session only).")
+        st.success("Thanks! Feedback submitted.")
 
 # ------------------- About -------------------
 # ------------------- About -------------------
@@ -297,3 +297,4 @@ Our models — Linear Regression, RandomForest, and XGBoost — use historical U
 ### Important Disclaimer
 All analyses, forecasts, and visualizations provided on GridWise are **for educational purposes only**. They are not intended as operational or investment advice. Demand forecasts are based on historical data and are subject to uncertainties. Users should consult qualified experts before using the information for real-world energy planning or decisions.
 """)
+
