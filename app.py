@@ -268,9 +268,32 @@ elif page == "Feedback":
         st.success("Feedback submitted (session only).")
 
 # ------------------- About -------------------
+# ------------------- About -------------------
 elif page == "About":
     st.header("About GridWise")
     st.markdown("""
-    **GridWise** is a student project — a Streamlit-based dashboard to explore UK half-hourly electricity demand,
-    renewable generation, and interconnector flows. Includes multiple forecasting models (LinearRegression, RandomForest, XGBoost) with interactive visualization.
-    """)
+### Who We Are
+**GridWise** is a smart energy insights platform designed to help students, researchers, and energy enthusiasts explore UK half-hourly electricity demand, renewable generation, and interconnector flows. Our goal is to make energy data **interactive, intuitive, and actionable**, so users can understand trends and patterns with ease.
+
+### Our Mission
+To simplify energy data analysis and make insights on electricity demand and renewable generation **accessible to everyone**, from learners to professionals.
+
+### For Everyone
+Whether you are a student, researcher, or energy professional, GridWise provides tools to **analyze demand trends, forecast future usage, and explore renewable energy contributions**.
+
+### Educational Focus
+We prioritize **learning and discovery** over static dashboards. All features are designed to help users **understand energy patterns, experiment with forecasts, and explore data-driven insights**.
+
+### Data-Driven
+Our models — Linear Regression, RandomForest, and XGBoost — use historical UK electricity data to **forecast demand and visualize trends**. Interactive charts, tables, and simulations make complex energy data easy to interpret.
+
+### What We Offer
+- **Demand Forecasting:** Predict electricity demand using multiple models with interactive visualization.  
+- **Renewable Analytics:** Explore wind and solar contributions, and visualize their share in total energy.  
+- **Interconnector Flows:** Track electricity flows between regions with dynamic charts.  
+- **Interactive Exploration:** Users can filter dates, select columns, and experiment with model parameters.  
+- **Insights & Feedback:** Idea submission and feedback collection to improve the platform iteratively.
+
+### Important Disclaimer
+All analyses, forecasts, and visualizations provided on GridWise are **for educational purposes only**. They are not intended as operational or investment advice. Demand forecasts are based on historical data and are subject to uncertainties. Users should consult qualified experts before using the information for real-world energy planning or decisions.
+""")
